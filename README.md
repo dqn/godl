@@ -1,6 +1,6 @@
 # godl
 
-Download file with Progress Bar.
+Download file with Progress
 
 ## Installation
 
@@ -26,6 +26,13 @@ func main() {
 	}
 	fmt.Println("completed!")
 }
+```
+
+Output:
+
+```bash
+downloading... 1.23/1.23 MB
+completed!
 ```
 
 ## API
